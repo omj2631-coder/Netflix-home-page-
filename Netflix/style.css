@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("../Assets/background.jpg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav img {
+    width: 133px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(87, 87, 87);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(248, 243, 243, 0);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(246, 238, 238, 0.7);
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 90vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.secimg img :first-child {
+    width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+.secimg {
+    position: relative;
+    width: 500px;
+    margin-bottom: 50px;
+
+
+}
+
+.popcorn {
+    position: relative;
+    top: 66px;
+    width: 390px;
+}
+
+.secimg img:last-child {
+    position: absolute;
+    top: 72px;
+    left: 92px;
+    width: 320px;
+    z-index: 1;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    top: -30px;
+
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.first.second {
+    gap: 100px;
+    margin-bottom: 140px;
+}
+
+.first.third {
+    margin-top: 80px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.first.third .popcorn {
+    position: relative;
+    top: -35px;
+}
+ 
+ .faqbox{
+    background: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.faqbox h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.faq{
+    max-width: 75vw;
+    margin: 8px auto;
+    padding: 24px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.faq:hover{
+    background-color: #414141;
+}
+
+.faq span:last-child{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+ footer{
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-item a{
+    color: white;
+    font-size: 15px;
+}
+.question{
+    padding: 20px 0;
+    grid-column: 1/-1;
+
+}
+.question a{
+    color: white;
+}
+.hero2 {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 15px;
+    padding: 20px 150px;
+}
+.hero-buttons2 {
+    display: flex;
+    gap: 16px;
+}
+@media screen and (max-width: 768px){
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .hero > :nth-child(1){
+        font-size: 32px;
+    }
+
+    .hero > :nth-child(2){
+        font-size: 18px;
+    }
+
+    .hero > :nth-child(3){
+        font-size: 18px;
+    }
+
+    .hero-buttons,
+    .hero-buttons2{
+        flex-direction: column;
+    }
+
+    .hero input,
+    .hero2 input{
+        width: 250px;
+    }
+
+    .btn-red{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .first{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .secimg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .secimg img:first-child{
+        width: 300px;
+    }
+
+    .secimg img:last-child{
+        width: 190px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 45px;
+    }
+
+    .popcorn img{
+        width: 280px;
+        height: auto;
+    }
+
+    .faq{
+        font-size: 18px;
+    }
+
+    .faqbox h2{
+        font-size: 32px;
+    }
+
+    footer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .secimg{
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+
+.secimg img:first-child{
+    width: 300px;
+}
+
+.secimg img:last-child{
+    width: 190px;
+    position: absolute;
+    top: 43px;
+}
+}
